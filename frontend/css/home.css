@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.start_btn {
+    color: rgb(5, 5, 5);
+    background: #f47a00;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px 0 10px;
+}
+
+.navbar-toggler-icon {
+    background-color: red;
+}
+
+/* .body { */
+/* height: 400px; */
+/* min-height: 400px;
+    max-height: 400px; */
+/* background: linear-gradient(#4a71d3 0%, #7893d3); */
+/* background: url(/images/bg.jpg); */
+
+/* background: url(images/pexels-photo-349609.jpeg); */
+
+/* } */
+.nav {
+    background: none;
+}
+
+#container {
+    width: 100%;
+    height: 400px;
+    background: url(/images/bg.jpg);
+    background-size: 100% 100%;
+    /* position: relative; */
+
+    /* text-shadow: 3px 3px 4px black; */
+    /* font-size: 20px; */
+    /* padding: 20px; */
+}
+
+.img_logo {
+    margin-left: auto;
+}
+
+.p1 {
+    max-width: 100%;
+    height: auto;
+    margin-left: 57%;
+    margin-top: 100px;
+
+}
+
+.body_text {
+
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 1.2em;
+
+}
+
+/* .plan_b {
+    width: 18rem;
+    color: #4a71d3;
+} */
+/* .plan_p {
+    font-size: 40px;
+} */
+
+.plan {
+    height: 600px;
+    /* background: red; */
+}
+
+.c1 {
+    margin-top: 300px;
+
+}
+
+.c2 {
+    margin-top: 150px;
+}
+
+.c3 {
+    margin-top: 20px;
+}
+
+.footer1 {
+    background: black;
+    margin-top: 200px;
+    color: aliceblue;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .layer {
+        margin-right: 800px;
+        width: 315px;
+        margin-bottom: 20px;
+
+    }
+
+    .m_pricing {
+        margin-top: 1400px;
+    }
+
+    .mq_footer {
+        margin-right: 90px;
+    }
+
+
+}
